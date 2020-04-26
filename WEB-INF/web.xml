@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<dependency>
+    <groupId>com.baidu.aip</groupId>
+    <artifactId>java-sdk</artifactId>
+    <version>4.10.0</version>
+</dependency>
+
+<servlet>
+	<servlet-name>registerServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>registerServlet</servlet-name>
+	<url-pattern>/registerServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>picfileServlet</servlet-name>
+	<servlet-class>myservlet.control.HandlePicfile</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>picfileServlet</servlet-name>
+	<url-pattern>/picfileServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>loginServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>loginServlet</servlet-name>
+	<url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>searchServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleSearch</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>searchServlet</servlet-name>
+	<url-pattern>/searchServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>putGoodsServlet</servlet-name>
+	<servlet-class>myservlet.control.HandlePutGoods</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>putGoodsServlet</servlet-name>
+	<url-pattern>/putGoodsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>buyGoodsServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleBuyGoods</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>buyGoodsServlet</servlet-name>
+	<url-pattern>/buyGoodsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>singleGoodsServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleSingleGoods</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>singleGoodsServlet</servlet-name>
+	<url-pattern>/singleGoodsServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>downloadServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleDownload</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>downloadServlet</servlet-name>
+	<url-pattern>/downloadServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>deleteServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>deleteServlet</servlet-name>
+	<url-pattern>/deleteServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>exitServlet</servlet-name>
+	<servlet-class>myservlet.control.HandleExit</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>exitServlet</servlet-name>
+	<url-pattern>/exitServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

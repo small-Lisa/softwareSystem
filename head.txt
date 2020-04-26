@@ -1,0 +1,19 @@
+<%@page contentType="text/html;charset=utf-8"%>
+<body background="image/back2.png">
+<div align="center">
+<table>
+	<tr>
+		<td><a href="index.jsp"><font size=5>>首页</font></a></td>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td><a href="publish.jsp"><font size=5>>发布软件</font></a></td>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td><a href="looksoftware.jsp"><font size=5>>下载软件</font></a></td>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td><a href="lookShoppingCar.jsp"><font size=5>>我的购物车</font></a></td>
+		<td>&nbsp&nbsp&nbsp&nbsp</td>
+		<td><a href="lookOrderForm.jsp"><font size=5>>已购产品</font></a></td>
+	</tr>
+</table>
+<br>
+</div>
+</body>
